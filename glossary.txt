@@ -1,15 +1,14 @@
-This is a glossary/guide for some terms used within the terraform project
+This is a glossary/guide for some terms used within the terraform project (and within cloud computing in general)
 
 main : the principal file where the infraestructure will be defined.
        this file specifies the needed resources in the cloud environment, for example:
-       -vpc
-       -subnets
-       -instances
-       -secutiry groups
-       -internet gateway
-       -route tables:
-       -route tables association:
-       -elastic ip 
-       -nacls: 
-       -another cloud services:
-       -iam roles and policies:
+       -vpc : a isoled virtual environment within the cloud infraestructure. Offers total control under the network environment
+       -cidr(classes inter-domain routing): is a method for ip address allocation and ip routing where a net is divided in small pieces(subnets)
+       -instances: is a server resource provided by third-party cloud services
+       -security groups : virtual firewalls that control inbound and outbound traffic for instances
+       -internet gateway : is a component that allows communication between instances in your VPC and the internet
+       -route tables: a set of rules that are used to determine where network traffic from your VPC instances is directed
+       -elastic ip : is a static IPv4 address designed for dynamic cloud computing environments
+       -nacls(network acess control list): additional layer of security for traffic control 
+       -additional cloud services: Like S3 and blob storage (used to store data), rds and sql database (relational database services)
+       -iam roles and policies: components of managing access to resources securely within cloud environments
