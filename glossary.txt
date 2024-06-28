@@ -1,0 +1,15 @@
+This is a glossary/guide for some terms used within the terraform project
+
+main : the principal file where the infraestructure will be defined.
+       this file specifies the needed resources in the cloud environment, for example:
+       -vpc
+       -subnets
+       -instances
+       -secutiry groups
+       -internet gateway
+       -route tables:
+       -route tables association:
+       -elastic ip 
+       -nacls: 
+       -another cloud services:
+       -iam roles and policies:
